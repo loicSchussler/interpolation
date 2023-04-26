@@ -1,0 +1,57 @@
+body {
+  background-image: url('./musiquefondecran.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+form{
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+label {
+  font-weight: bold;
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+input[type="file"] {
+  border: 1px solid #999999;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+
+button[type="submit"] {
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.preview {
+    margin-bottom: 50px;
+}
+
+.preview_image {
+    width: 80%;
+    height: auto;
+}
